@@ -1,0 +1,73 @@
+/*****************
+GENERAL
+*****************/
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 45%;
+    overflow: hidden;
+}
+
+.p-custom {
+    width: 45%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.center-thing {
+    margin: 0 auto;
+}
+
+.generic-square {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 0 1.666%;
+    background: #999;
+    border-radius: 5%;    
+}
+
+.btn {
+    padding: 0.75% 12.5%;
+    margin: 2.5% 0;
+    background-color: rgb(250, 58, 42);
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*****************
+RESPONSIVE
+*****************/
+
+@media screen and ( max-width: 1000px ) {    
+    .container {
+        width: 80%;
+    }
+
+    .p-custom {
+        width: 70%;
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+
+    .btn {
+        padding: 1.75% 17.5%;
+        border-radius: 25px;
+        font-size: 1.1rem;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+
