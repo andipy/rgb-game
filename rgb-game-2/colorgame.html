@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+        <title>Dummy Color Game</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <header>
+                <h1>Indovina il colore!</h1>
+                <div id="button-container">
+                    <button id="change"><span>Play</span></button>
+                </div>
+                <p>A che colore corrisponde questo codice rgb?</p>
+                <h3 id="actualRGB">rgb(---, ---, ---)</h3>
+            </header>
+            
+            <div id="response"></div>
+
+            <div id="container">
+                <div id="inner-container">
+                    <div class="square no-color"></div>
+                    <div class="square no-color"></div>
+                    <div class="square no-color"></div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
